@@ -1,0 +1,18 @@
+{
+  "name": "portfolio_",
+  "version": "1.0.0",
+  "description": "portfolio by chirag jethva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chirag Jethva",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.19.2",
+    "twilio": "^5.0.3"
+  }
+}

@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: #14131a;
+    color: white;
+}
+#custom-nav{
+    color: white !important;
+}
+#doted{
+    display: flex;
+}
+
+.dote1{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 0 1rem 0 0;
+    background-color: #2bd576;
+}
+#icon-color{
+    color: white !important;
+}
+button{
+    border: 2px solid #2bd576 !important;
+    color: white !important;
+}
+#navbar-ul{
+    width: 44% !important;
+    margin: auto !important;
+}
+
+#navbar-ul a{
+    font-size: 1.3rem !important;
+    margin: 0 1.1rem 0 1.1rem;
+}
+#navbar-ul a:hover{
+    text-decoration: underline #2bd576 !important;
+}
+#sticky{
+    background-color: #14131a !important;
+}
+
+#home{
+    margin-top: 1rem;
+    height: 300px;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about{
+    display: flex;
+    margin-left: 6rem;
+}
+
+.about img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 2rem;
+}
+
+.name h2{
+    font-weight: 800;
+}
+.name a{
+    background-color: #2bd576;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    margin-left: 0;
+    padding: 0.3rem;
+    width: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.name a:hover {
+    box-shadow: 1px 1px 12px 4px black;
+}
+.name i {
+    margin-left: 10px;
+}
+
+.socials{
+    display: flex;
+    margin-right: 7rem;
+    flex-direction: column;
+}
+
+.socials a{
+    background-color: #14131a;
+    border-radius: 10px;
+    margin: 0.3rem 0 0.3rem 0;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem;
+}
+
+.socials i {
+    margin-right: 0.3rem;
+}
+
+
+#project{
+    margin: 2rem;
+}
+
+.card-component{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.card-component a{
+    color: black;
+    text-decoration: none;
+}
+.card{
+    height: 330px !important;
+    border: none !important;
+}
+
+
+.card img{
+    height: 180px !important;
+}
+
+
+#skills{
+    margin: 2rem;
+}
+.all-set{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill-set{
+    margin: 1rem;
+    background-color: #1c1b23;
+    width: 15rem;
+    height: 23rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.skill-set h3{
+    color: #8b8a91;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.all-component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.component{
+    background-color: #14131a;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+.border-html{
+    border: 2px solid rgb(130, 78, 78);
+}
+.border-css{
+    border: 2px solid rgb(82, 82, 133);
+}
+.border-js{
+    border: 2px solid rgb(121, 98, 40);
+}
+.border-node{
+    border: 2px solid rgb(180, 180, 233);
+}
+.border-ex{
+    border: 2px solid rgb(104, 79, 79);
+}
+.border-mongo{
+    border: 2px solid rgb(60, 104, 60);
+}
+
+#other{
+    margin: 2rem;
+}
+
+.all-others{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 1rem ;
+}
+
+.all-others .card{
+    margin: 1rem !important;
+}
+
+
+#services{
+    margin: 2rem;
+}
+.all-services{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-card{
+    margin: 1rem;
+    width: 23rem;
+    height: 26rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.border-card1{
+    border: 1px solid red;
+}
+.border-card2{
+    border: 1px solid blue;
+}
+.border-card3{
+    border: 1px solid forestgreen;
+}
+.services-card h2{
+    font-weight: 600;
+}
+.services-card img{
+    width: 120px;
+    height: 120px;
+}
+
+.services-card p{
+    font-size: 0.8rem;
+    color: #8b8a91;
+    margin: 0.8rem;
+    text-align: center;
+}
+
+.f-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.f-info i{
+    color: #8b8a91;
+    font-size: 1.5rem;
+    margin: 1rem 0.5rem 0 0.5rem;
+}
+.f-info i:hover{
+    color: white;
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+}
+.form textarea{
+    width: 100%;
+}
+.form button{
+    color: white;
+    padding: 0.3rem;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background-color: #2bd576;
+}
+
+.form a{
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    .about{
+        margin-left: 2rem;
+    }
+    
+    .name{
+        margin: 0 0 0 0.4rem;
+    }
+    .name h2{
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+    .name a{
+        font-size: 0.6rem;
+    }
+    .socials{
+        display: none;
+    }
+    #project{
+        margin: 0;
+    }
+    #project h2{
+        margin-left: 1rem;
+    }
+    #other{
+        margin: 0;
+    }
+    #other h2{
+        margin-left: 1rem;
+    }
+    #services{
+        margin: 0;
+    }
+    #skills{
+        margin: 0;
+    }
+    #skills h2{
+        margin-left: 1rem;
+    }
+    .skill-set{
+        margin: 0 auto;
+    }
+    .services-card{
+        width: 15rem;
+    }
+    .all-set{
+        margin: 0;
+        justify-content: start;
+    }
+    .card{
+        margin-bottom: 1rem;
+        margin: 0 auto;
+    }
+    .all-others{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .services-card img{
+        width: 100px;
+        height: 100px;
+    }
+    .services-card h2{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    #services h2{
+        margin-left: 1rem;
+    }
+}
+
