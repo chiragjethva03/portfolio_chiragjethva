@@ -379,3 +379,11 @@ button{
     }
 }
 
+
+::-webkit-scrollbar {
+    width: 6px; /* width of the scrollbar */
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2bd576; /* color of the scrollbar thumb */
+    border-radius: 6px; /* roundness of the scrollbar thumb */
+}
